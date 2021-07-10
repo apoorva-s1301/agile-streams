@@ -68,19 +68,26 @@ Make sure that your system doesn’t have a VPN or Firewall enabled before makin
 ## 📦 Getting Started/ Setup
 
 1. Clone this repository.
-2. Head over to ms-teams-clone-frontend directory and install dependencies by running the following in terminal.
 
 ```javascript
+  git clone https://github.com/apoorva-s1301/agile-streams.git
+```  
+
+2. Head over to client directory and install dependencies by running the following in terminal.
+
+```javascript
+  cd client
   npm install
 ```
 
-3. Head over to ms-teams-clone-server directory and install dependencies by running the following in terminal.
+3. Head over to server directory and install dependencies by running the following in terminal.
 
 ```javascript
+  cd server
   npm install
 ```
 
-4. Follow the directory flow ms-teams-clone-frontend --> src --> firebase.js and add your own Firebase configuration object (after taking necessary project setup steps on Firebase).
+4. Follow the directory flow client --> src --> firebase.js and add your own Firebase configuration object (after taking necessary project setup steps on Firebase).
   
   ```javascript
     //Configure firebase here
@@ -95,7 +102,7 @@ Make sure that your system doesn’t have a VPN or Firewall enabled before makin
     };
   ```
   
-5. Follow the directory flow ms-teams-clone-frontend --> src --> components --> MeetPage.jsx
+5. Follow the directory flow client --> src --> components --> MeetPage.jsx
    - Comment the line : 
     ```javascript
       socket = io.connect('https://engage-ms-teams-clone.herokuapp.com/')
@@ -105,7 +112,7 @@ Make sure that your system doesn’t have a VPN or Firewall enabled before makin
       socket = io.connect('http://localhost:5000')
    ``` 
 
-6. OPTIONAL : Follow the directory flow ms-teams-clone-frontend --> src --> components --> OnLoginCalendarPage.jsx. Embed your own Outlook calendar by replacing the iframe source.
+6. OPTIONAL : Follow the directory flow client --> src --> components --> OnLoginCalendarPage.jsx. Embed your own Outlook calendar by replacing the iframe source.
 
   ```javascript
     <iframe title="calendar" 
@@ -114,7 +121,7 @@ Make sure that your system doesn’t have a VPN or Firewall enabled before makin
     </iframe>
   ```
       
-7. In both the directories (ms-teams-clone-frontend and ms-teams-clone-server), run the following to run server and client sides separately in your browser.
+7. In both the directories (client and server), run the following to run server and client sides separately in your browser.
 
 ```javascript
   npm start
@@ -227,6 +234,7 @@ To host the react app's frontend on Netlify :
 
 1. Create an optimised production build by running the following command in terminal.
 ```javascript
+  cd client
   npm run build
 ```
 2. Sign up/Log in to Netlify.
@@ -278,11 +286,11 @@ For more information refer to the [guides](#resources).
 
 <a id="bug"></a>
 ## 🐛 Bug Reporting
-Feel free to [open an issue](https://github.com/apoorva-s1301/msTeamsClone/issues) on GitHub if you find bugs.
+Feel free to [open an issue](https://github.com/apoorva-s1301/agile-streams/issues) on GitHub if you find bugs.
 
 <a id="feature-request"></a>
 ## ⭐ Feature Request
-- Feel free to [open an issue](https://github.com/apoorva-s1301/msTeamsClone/issues) on GitHub to add any additional features you feel could enhance this project.  
+- Feel free to [open an issue](https://github.com/apoorva-s1301/agile-streams/issues) on GitHub to add any additional features you feel could enhance this project.  
 - You can also discuss and provide suggestions to me on [LinkedIn](https://www.linkedin.com/in/apoorva-singh-130/).
 
 <a id="license"></a>
