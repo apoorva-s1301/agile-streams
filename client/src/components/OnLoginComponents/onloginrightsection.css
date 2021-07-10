@@ -1,0 +1,122 @@
+.on-login-right-section
+{   
+    display: flex;
+    flex-direction: column;
+    flex: 0.72;
+    background: #f5f5f5;
+    color: #242424;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    overflow-y: auto;
+}
+
+.on-login-right-section-header{
+    padding: 6rem;
+    text-align: center;
+}
+
+.right-section-cards {
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+.right-section-card{
+    height: 298px;
+    width: 325px;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section-card-img{
+    box-shadow: 0 0.2rem 0.4rem -0.075rem rgb(0 0 0 / 10%);
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    height: 130px;
+    width: 325px;
+    background-image: linear-gradient(
+        113.89deg
+        ,rgba(255,255,255,.6) -85.73%,rgba(166,167,220,.6) 306.97%);
+}
+
+.right-section-card-content{
+    box-shadow: 0 0.2rem 0.4rem -0.075rem rgb(0 0 0 / 10%);
+    border-radius: 0 0 1rem 1rem;
+    background-color: #fafafa;
+}
+
+.right-section-btn {
+    width: 50%;
+    text-align: center;
+    padding: 3px 4px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: #6264a7;
+    color: white;
+    cursor: pointer;
+}
+
+.right-section-btn:hover {
+    background-color: #464775;
+}
+
+/* Files section */
+
+.right-section-recent-files-header{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 15px 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.clock-div {
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #6264a7;
+    border-radius: 4px;
+}
+
+.right-section-recent-files-menu{
+    background-color: #fff;
+    padding: 15px;
+    margin: 6px 20px;
+}
+
+.file-item{
+    font-size: 0.8rem;
+    color: #616161;
+    width: 33.33%;
+}
+
+/* Chat section */
+
+.right-chat-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-chat-section-msgs{
+    padding-top: 5%;
+    padding-bottom: 12%;
+}
+
+.footer-input {
+    position: fixed;
+    bottom: 0;
+    height: 17%;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #dddbdb;
+}
+
+@media only screen and (max-width: 800px) {
+    .on-login-right-section-header {
+        padding: 1rem;
+    }
+    .right-section-cards{
+        flex-direction: column;
+    }
+}

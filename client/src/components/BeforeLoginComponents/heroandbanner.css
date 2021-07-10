@@ -1,0 +1,49 @@
+/* Banner section styles */
+.banner a:hover {
+    border-bottom: 2px solid currentColor;
+}
+
+.banner {
+    background-color: #4b53bc;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Hero section styles */
+.hero a:hover {
+    border-bottom: 2px solid currentColor;
+}
+
+.hero-title {
+    color: #4b53bc;
+}
+
+.hero-sign-up-btn {
+    background-color: #4B53BB;
+}
+
+.hero-sign-up-btn:hover {
+    background-color: #363c90;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.hero-sign-in-btn {
+    background-color: #fff;
+    color: #4b53bc;
+    border: 2px solid #4b53bc;
+}
+  
+.hero-sign-in-btn:hover {
+    background-color: #ebebeb;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.hero-pricing-txt {
+    color: #0067b8;
+}
+
+.hero-img {
+    width: 707;
+    height: 497;
+}

@@ -1,0 +1,127 @@
+/* Chat header section */
+.chat-header-main {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddbdb;
+}
+
+.chat-header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.chat-header-left-group-one {
+    background-color: #616161;
+    padding: 0.25rem 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.chat-header-left-group-two {
+    display: flex;
+    align-items: center;
+    margin: 0 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.chat-header-text-one,.chat-header-text-two,.chat-header-text-three {
+    border-bottom: solid;
+    border-color: #f5f5f5;
+    margin: 0 0.5rem;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.chat-header-text-two:hover , .chat-header-text-three:hover {
+    border-color: #6264a7;
+}
+
+.chat-header-left-group-three {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.chat-header-icon-one, .chat-header-icon-two {
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.25rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.125rem;
+    background-color: #6264a7;
+    color: white;
+}
+
+.chat-header-icon-one:hover, .chat-header-icon-two:hover{
+    background-color: #3d3e66;
+}
+
+.chat-header-icon-one:hover {
+    cursor: pointer;
+}
+
+/* Chat messages section */
+
+.chat-card {
+    margin: 2rem;
+    /* padding: 1rem; */
+    width: fit-content;
+    display: flex;
+}
+
+.user-img {
+    margin-top: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.chat-content-top {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    font-size: small;
+    font-weight: 200;
+}
+
+.chat-content {
+    margin: 0 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chat section footer */
+
+.chat-section-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chat-section-input {
+    padding-left: 10px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid rgb(224, 224, 224);
+    width: 65%;
+    height: 41px;
+    border-radius: 0.4rem;
+    color: rgb(37, 36, 35);
+}
+
+.chat-section-input:focus {
+    border-bottom: 0.15rem solid #6264a7;
+}

@@ -1,0 +1,58 @@
+.calling-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(59,58,58,.95);
+    width: fit-content;
+    height: 3.3rem;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    box-shadow: 0 0.4rem 1rem 0.3rem rgb(0 0 0 / 30%);
+}
+
+.timer, .calling-bar-icon {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+    height: 3.3rem;
+    width: 3.3rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    cursor: pointer;
+}
+
+.timer {
+    cursor:default;
+    border-right: .1rem solid #1b1b1b;
+    font-size: 0.5rem;
+    color: rgba(200,198,196,.75);
+}
+
+.bar-section-two {
+    background: rgba(41,40,40,.9);
+}
+
+.bar-section-three {
+    background: #9d2f42;
+    transition: background-color .2s ease-out;
+}
+
+.calling-bar-icon:hover {
+    background-color: rgba(58, 58, 78, 0.95);
+}
+
+.bar-section-three:hover {
+    background-color: #a72037;
+}
+
+@media (max-width: 640px){
+    .calling-bar{
+        left: 8%;
+    }
+}
+

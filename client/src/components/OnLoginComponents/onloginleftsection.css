@@ -1,0 +1,36 @@
+.on-login-left-section {
+    display: flex;
+    flex: 0.05;
+    flex-direction: column;
+    background-color: #ebebeb;
+    width: 68px;
+    color: #616161;
+}
+
+.left-section-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 10px;
+    font-size: 1.3rem;
+    height: 56px;
+    width: 68px;
+}
+
+.left-section-icon:hover {
+    cursor: pointer;
+    background: #f7f6f6;
+    color: #6264a7;
+}
+
+.left-section-btn:focus {
+    outline: none;
+    border: none;
+    border-left: solid #6264a7;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+.left-section-icon  h1 {
+    font-size: 0.6rem;
+}

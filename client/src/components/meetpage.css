@@ -1,0 +1,92 @@
+.meet-page-main{
+    display: flex;
+}
+
+.video-cont {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 0 20px;
+    background-color: black;
+}
+
+.first-video-container, .second-video-container {
+    padding: 0 20px;
+}
+
+.first-user-vid, .second-user-vid {
+    height: 100vh;
+    width: 100vw;
+}
+
+.invite-modal, .caller {
+    color: white;
+    background: rgba(59,58,58,.95);
+    padding: 15px 20px;
+    height: fit-content;
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 2px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    position: absolute;
+    top: 25vh;
+    left: 38vw;
+    display: flex;
+}
+
+.invite-modal-header {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invite-btn {
+    margin: 10px 0px;
+    padding: 5px 0px;
+    background-color: #6264a7;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+
+.invite-btn:hover {
+    background-color: #464775;
+}
+
+.or-div {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.share-id-btn{
+    color: #6264a7;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    border-color: #ebebeb;
+    border-width: 1px;
+}
+
+.share-id-btn:hover {
+    background-color: #edebe9;
+}
+
+.share-id-btn:focus {
+    outline: none;
+}
+
+.caller {
+    top: 8vh;
+    left: 38vw;
+}
+
+@media (max-width: 640px){
+    .invite-modal, .caller{
+        left: 18%;
+    }
+}
+

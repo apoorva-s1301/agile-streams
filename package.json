@@ -1,0 +1,12 @@
+{
+  "name": "agile-streams",
+  "version": "1.0.0",
+  "description": "Microsoft Engage 2021 Challenge Project",
+  "scripts": {
+    "prepare-client":"cd client && npm install",
+    "prepare-server":"cd server && npm install"
+  },
+  "author": "Apoorva Singh",
+  "license": "ISC",
+  "homepage": "https://engage-ms-teams-clone.netlify.app/"
+}

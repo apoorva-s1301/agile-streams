@@ -1,0 +1,84 @@
+.on-login-middle-section {
+    flex: 0.23;
+    background: #f0f0f0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    overflow-y: auto;
+}
+
+.middle-section-header {
+    border-bottom: 1px solid #dddbdb;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-section-icons {
+    font-size: 1.3rem;
+    color: #616161;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 10px 0 0;
+}
+
+.middle-section-icon {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.middle-section-icon:hover {
+    background-color: #6264a7;
+    color: white;
+}
+
+.recents {
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.middle-section-disp,.middle-section-content {
+    font-size: 0.9rem;
+    color: #616161;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem 1.2rem;
+}
+
+.middle-section-content {
+    cursor: pointer;
+    padding: 0.8rem 1.2rem;
+}
+
+.middle-section-content:hover {
+    background: #fff;
+}
+
+.middle-section-content-btn{
+    background: #fff;
+    width: 22.8%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+.add-files-btn, .upload-files-btn{
+    color: #fff;
+    background-color: #6264a7;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    width: fit-content;
+    padding: 8px 35px;
+    cursor: pointer;
+}
+
+.add-files-btn{
+    display: flex;
+    margin: 0 20%;
+}
+
+.add-files-btn:hover,.upload-files-btn:hover {
+    background-color: #464775;
+}
+
+

@@ -1,0 +1,210 @@
+.sign-in-main {
+    background: rgb(215,228,244);
+    background: radial-gradient(circle, rgba(215,228,244,0.6979166666666667) 45%, rgba(247,228,236,0.773546918767507) 100%);
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Top card section */
+
+.sign-in-main-container {
+    margin-top: 75px;
+    box-shadow: 0px 1px 4px 0px rgb(146, 146, 146);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: fit-content;
+    padding: 45px;
+}
+
+.sign-in-main-container img {
+    width: 110px;
+}
+
+.sign-in-main-container p {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.sign-in-main-container p a {
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.sign-in-main-container a:hover {
+    color: rgb(97, 97, 97);
+    text-decoration: underline;
+}
+
+.sign-in-main-container h1 {
+    margin-top: 9px;
+    margin-bottom: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.sign-in-main-container input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 98%;
+    padding-bottom: 8px;
+    outline: none;
+}
+
+.sign-in-main-container input:focus {
+    border-bottom: 1px solid #3061c4;
+}
+
+/* Sign In options section  */
+
+.sign-in-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.option-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem 0;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px 0px rgb(146, 146, 146);
+    border-radius: 5px;
+    border-color: #ebebeb;
+}
+
+.option-btn:hover{
+    background-color: #edebe9;
+}
+
+.option-btn-icon {
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.option-btn-text {
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.error-msg {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 0.9rem;
+}
+
+.main-container-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continue-btn {
+    border: none;
+    border-radius: 0px;
+    background-color: #0067b8;
+    padding: 6px 38px;
+    color: white;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background-color: #005da6;
+}
+
+.options-section {
+    cursor: pointer;
+    box-shadow: 0px 1px 4px 0px rgb(150, 149, 149);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    width: 440px;
+    height: 48px;
+    padding: 17px 45px;
+}
+
+.options-section img {
+    width: 32px;
+    padding-right: 14px;
+}
+
+.options-section:hover {
+    background-color: rgb(236, 235, 235);
+}
+
+/* Authentication page's footer section*/
+
+.sign-in-footer {
+    background: rgb(215,228,244);
+    background: radial-gradient(circle, rgba(215,228,244,0.6979166666666667) 45%, rgba(247,228,236,0.773546918767507) 100%);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-in-footer a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    margin-top: 78px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-a {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.sign-in-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 550px) {
+    .sign-in-main {
+        padding: 0px;
+        margin-top: 10px;
+        background: white;
+    }
+
+    .sign-in-main-container {
+        width: 82%;
+        padding: 2px;
+        margin-top: -150px;
+        box-shadow: none;
+    }
+
+    .options-section {
+        margin-top: 10px;
+        width: 82%;
+        box-shadow: none;
+        border: 1px solid rgb(129, 129, 129);
+        padding: 18px 30px;
+    }
+
+    .options-section p {
+        font-size: 14px;
+    }
+
+    .sign-in-footer {
+        background: white;
+        justify-content: flex-start;
+    }
+
+    .sign-in-footer a {
+        color: rgb(124, 124, 124);
+        margin-left: 25px;
+        padding: 0px;
+    }
+}

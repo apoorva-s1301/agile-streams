@@ -1,0 +1,63 @@
+.on-login-header {
+    background-color: #6264a7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+}
+
+.header-left-empty {
+    flex: 0.29;
+}
+
+.search-bar {
+    flex: 0.46;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(255,255,255,.8);
+    padding: 0 1rem 0rem 0.5rem;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 4px;
+    height: 68%;
+}
+
+.search-bar > input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    margin-left: 4px;
+}
+
+.search-bar > input::placeholder {
+   color: #555796;
+    font-size: 0.9rem;
+}
+
+.header-right{
+    color: white;
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.avatar-dropdown {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header-avatar{
+    margin-left: 20%;
+}
+
+.header-right > .MuiSvgIcon-root {
+    margin-left: 20px;
+}
