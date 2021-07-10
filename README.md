@@ -19,7 +19,6 @@ Make sure that your system doesn’t have a VPN or Firewall enabled before makin
 * [Resources](#resources)
 * [Bug Reporting](#bug)
 * [Feature Requests](#feature-request)
-* [License](#license)
 
 
 <a id="features"></a>
@@ -293,6 +292,3 @@ Feel free to [open an issue](https://github.com/apoorva-s1301/agile-streams/issu
 - Feel free to [open an issue](https://github.com/apoorva-s1301/agile-streams/issues) on GitHub to add any additional features you feel could enhance this project.  
 - You can also discuss and provide suggestions to me on [LinkedIn](https://www.linkedin.com/in/apoorva-singh-130/).
 
-<a id="license"></a>
-## 📜 License
-This software is open source, licensed under the [MIT License]().
