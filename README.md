@@ -2,15 +2,19 @@
 
 ### Agile Streams is a cloned collaborative web application having subset features of Microsoft Teams. It has been built as the solution to Microsoft Engage Challenge 2021.
 
+#### Demo video link : https://www.youtube.com/watch?v=O2Ul1a1d1lU
+#### Hosted web application : https://engage-ms-teams-clone.netlify.app/
+
+
 <img width="1432" alt="Screenshot 2021-07-09 at 7 26 00 PM" src="https://user-images.githubusercontent.com/75029142/125091312-eb086900-e0ed-11eb-9b7b-3f05d7152a36.png">
 
 ### 🚩 CAUTION 
-Make sure that your system doesn’t have a VPN or Firewall enabled before making a video call because the project uses only STUN servers as of now and not TURN servers. STUN and TURN are WebRTC signaling servers used to create peer-to-peer (P2P) connection when we are building a real-time communication application.
-
+- Make sure that your system doesn’t have a VPN or Firewall enabled before making a video call because the project uses only STUN servers as of now and not TURN servers. STUN and TURN are WebRTC signaling servers used to create peer-to-peer (P2P) connection when we are building a real-time communication application.
 
 ### 📌 Table of Contents
 * [Features](#features)
 * [Tech Stack Used/ Dependencies](#tech-stack)
+* [Agile methodology followed during the build](#agile)
 * [Getting Started/ Setup](#getting-started)
 * [Usage Guide/ Application flow](#usage)
 * [Hosting](#hosting)
@@ -61,6 +65,19 @@ Make sure that your system doesn’t have a VPN or Firewall enabled before makin
 ***CORS*** : A HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. Used here for communicating between server and client side hosted on Heroku and Netlify respectively.
 
 ***Others*** : React icons and react-copy-to-clipboard.
+
+<a id="agile"></a>
+## ⚡️ Agile methodology followed during the build
+
+Agile is an easy to handle and flexible development process which relies on light(short-termed) planning procedures. It allows faster adjustments and reviewing with an aim of keeping the principle of zero bug bounce. Implementation of this method is done via a disciplined work breakdown, which I handled as depicted in the following :
+
+<img width="705" alt="Screenshot 2021-07-12 at 12 07 30 PM" src="https://user-images.githubusercontent.com/75029142/125244384-e4a40800-e30c-11eb-802b-6b202b4db10d.png">
+
+<img width="707" alt="Screenshot 2021-07-12 at 12 06 17 PM" src="https://user-images.githubusercontent.com/75029142/125244395-e8378f00-e30c-11eb-8484-0f4da729911f.png">
+
+<img width="710" alt="Screenshot 2021-07-12 at 12 08 22 PM" src="https://user-images.githubusercontent.com/75029142/125244398-e968bc00-e30c-11eb-8185-526e772dfab9.png">
+
+
 
 
 <a id="getting-started"></a>
@@ -144,7 +161,7 @@ All links except those of Sign In and Sign Up lead to the original Microsoft Tea
 
 <img width="1432" alt="Screenshot 2021-07-09 at 7 26 00 PM 2 2" src="https://user-images.githubusercontent.com/75029142/125098738-ec895f80-e0f4-11eb-82e3-8a659a3aa4d3.png">
 
-### Sign Up Component
+### Sign Up Page
 Enter all the required fields for successful sign up. Make sure the password strength is strong.
 
 <img width="1436" alt="Screenshot 2021-07-09 at 8 38 56 PM" src="https://user-images.githubusercontent.com/75029142/125100202-74239e00-e0f6-11eb-87f8-59cba940f842.png">
@@ -157,7 +174,7 @@ In case of an error, the following message would show up.
 
 <img width="443" alt="Screenshot 2021-07-09 at 8 40 59 PM" src="https://user-images.githubusercontent.com/75029142/125100941-4723bb00-e0f7-11eb-8475-1353dc435811.png">
 
-### Sign In Component
+### Sign In Page
 You can either sign in using the email/password you used to sign yourself up previously or you can click the other options bar to authenticate yourself using Google/Github/Twitter.
 
 <img width="1440" alt="Screenshot 2021-07-09 at 8 51 38 PM" src="https://user-images.githubusercontent.com/75029142/125102151-9f0ef180-e0f8-11eb-9f07-184d575bfb45.png">
@@ -207,7 +224,7 @@ Upload files by clicking on the "Add files" button. The files would be displayed
 
 <img width="1440" alt="Screenshot 2021-07-10 at 4 19 43 AM" src="https://user-images.githubusercontent.com/75029142/125160509-eea5f980-e19a-11eb-8a52-6b0215be07e3.png">
 
-### Sign Out Component
+### Sign Out Page
 
 Signing out using the avatar dropdown will redirect you to the following component.
 
