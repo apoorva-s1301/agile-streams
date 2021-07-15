@@ -4,6 +4,12 @@
 
 #### Demo video link : https://www.youtube.com/watch?v=O2Ul1a1d1lU
 #### Hosted web application : https://engage-ms-teams-clone.netlify.app/
+Test email: `test@sample.microsoft.com`
+
+Test password: `1234testsample#`
+
+Note: Two days after making the application public on LinkedIn and YouTube(around 15th July, post the final Engage submission), a lot of people tried the app and probably tweaked something. The link has been flagged with a "Deceptive site ahead" warning. I am new to the concepts of website security and working on getting this warning removed as soon as possible. I request you to still go ahead and test the application.
+
 
 
 <img width="1432" alt="Screenshot 2021-07-09 at 7 26 00 PM" src="https://user-images.githubusercontent.com/75029142/125091312-eb086900-e0ed-11eb-9b7b-3f05d7152a36.png">
